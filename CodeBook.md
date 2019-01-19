@@ -110,16 +110,6 @@ The measurements are classified in two domains:
 2. frequencyDomainBodyAccelerometerJerkStandardDeviationY
 3. frequencyDomainBodyAccelerometerJerkStandardDeviationZ
 
-• Weighted average of the frequency components of the frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
-1. frequencyDomainBodyAccelerometerJerkMeanFrequencyX
-2. frequencyDomainBodyAccelerometerJerkMeanFrequencyY
-3. frequencyDomainBodyAccelerometerJerkMeanFrequencyZ
-
-•Average frequency-domain body angular velocity in the X, Y and Z directions:
-1. frequencyDomainBodyGyroscopeMeanX
-2. frequencyDomainBodyGyroscopeMeanY
-3. frequencyDomainBodyGyroscopeMeanZ
-
 
 # Transformations
 
@@ -136,7 +126,5 @@ The measurements are classified in two domains:
 • The initial f and t were expanded to frequencyDomain and timeDomain respectively.
 
 • Acc, Gyro, Mag, Freq, mean, and std were replaced with Accelerometer, Gyroscope, Magnitude, Frequency, Mean, and StandardDeviation respectively.
-
-• Replaced (supposedly incorrect as per source's features_info.txt file) BodyBody with Body.
 
 5.- From the data set in step 4, the final data set was created with the average of each variable for each activity and each subject.
